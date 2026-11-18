@@ -1,4 +1,5 @@
 FROM python:3.13-slim-bookworm
+LABEL course.student="Nikita"
 WORKDIR /app
 ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
 COPY app.py index.html ./
